@@ -1,0 +1,132 @@
+/* @media screen and (max-width: 48em){ */
+    
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    *:hover{
+        cursor: url("https://img.icons8.com/ios/50/000000/cursor.png"), auto;
+}
+/* Nav bar */
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 1.5rem;
+    
+}
+li{
+    margin-inline: 1rem;
+    list-style: none;
+    
+}
+a{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+.nav-items li a:hover{
+    color:#0b66e6;
+}
+/* Banner Section */
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-inline: auto;
+    margin-top: 6rem;
+    gap: 5rem;
+}
+.banner-img{
+    border: 0.1rem solid black;
+    height: 23rem;
+}
+.name{
+    font-size: 3rem;
+    font-weight: 500;
+    color:#000;
+    margin-block: 1rem;
+    text-transform: uppercase;
+}
+.desc{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: $font-pri-color;
+    margin-block: 1rem;
+}
+.btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #000;
+    height: 2.5rem;
+    width: 7rem;
+}
+.btn a:hover{
+    background-color: #2f3640;
+}    
+/* Contact Section */
+#contact-section{
+    flex-direction: column;
+    width: 80vw;
+    margin-inline: auto;
+    margin-top: 6rem;
+}
+.name{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000;
+    margin-block: 1rem;
+    text-transform: uppercase;
+}
+li a{
+    font-size: 1rem;
+    color: #000;
+    
+}
+li a:hover{
+    color: #2f3640;
+}
+ul{
+    line-height: 3rem;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+}
+
+/* Responsive Css */
+@media screen and (max-width: 48em) {
+  .nav-items li {
+    
+      font-size: 0.2rem;
+      margin-block: 0.5rem;
+    }
+  
+
+  #banner {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+    .name {
+      font-size: 2rem;
+    }
+    .desc {
+      font-size: 1rem;
+    }
+    .btn {
+      height: 2rem;
+      width: 5rem;
+    }
+  }
+
